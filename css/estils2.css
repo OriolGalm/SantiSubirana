@@ -1,0 +1,535 @@
+html{
+	min-height:100%;
+	position:relative;
+}
+body{
+	margin:0px;
+	padding:0px;
+	background:rgba(220,220,220,1);
+	font-family: "Open Sans", Arial, sans-serif;
+}
+nav{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	margin:0px;
+	height:4vw;
+	overflow:hidden;
+	border-bottom:2px solid grey;
+	background:rgba(248,245,232,1);
+	transition:all 0.5s;
+}
+#div2{
+	background:url(../img/NovesDecembre2019/subilogo.jpg);
+	width:2.2%;
+	height:3vw;
+	float:left;
+	margin:0.5vw 0px 0px 2.4%;
+	background-size:cover;
+}
+nav>a>h2{
+	width:36%;
+	font-size:3vw;
+	margin:0.2vw 0% 1vw 2.4%;
+	float:left;
+	text-transform:uppercase;
+	font-family: calibri;
+	color:rgba(77,79,79,1);
+}
+nav>img{
+	position:absolute;
+	top:-500px;
+	left:1000px;
+	width:0px;
+}
+#div3{
+	float:right;
+	width:6.5%;
+	margin:0.7vw 0% 0vw 0vw;
+	overflow:hidden;
+	font-size:1.2vw;
+	font-weight:bold;
+}
+#div3>a{
+	font-family:arial;
+	text-decoration:none;
+	color:rgba(90,0,0,1);
+}
+#div3>a:hover{
+	text-decoration:underline;
+}
+#div1{
+	float:left;
+	width:46%;
+	margin:1vw 0% 0px 4%;
+}
+#div1>a>div{
+	float:left;
+	width:20%;
+	font-size:1.8vw;
+	padding:0px 0px 2px 0px;
+	text-align:center;
+	text-transform:capitalize;
+	font-family: calibri;
+	text-decoration:none;
+	font-weight:bold;
+	display:inline-block;
+	transition:all 0.1s;
+	cursor:pointer;
+	color:white;
+	background:rgba(55,55,55,1);
+	border-bottom:1px solid grey;
+}
+#div1>a>div:hover{
+	color:black;
+	background:silver;
+	border-bottom:0.1vw solid brown;
+}
+h4{
+	font-size:1.9vw;
+}
+.fonsClar{
+	margin:4vw 0px 0px 0px;
+	padding: 3vw 5vw;
+	background:rgba(240,240,240,1);
+}
+.fonsFosc{
+	margin:0px;
+	padding: 1vw 5vw;
+}
+
+.lletraGran{
+	margin:4vw 0px 0px 0px;
+	padding: 3vw 5vw;
+	font-size:2vw;
+	background:rgba(240,240,240,1);
+}
+.cosLletra{
+	padding:0vw 5vw;
+}
+.cosLletra>h2:nth-child(1){
+	font-size:1.4vw;
+}
+.cosLletra>h2{
+	font-size:2vw;
+}
+.cosLletra>p{
+	font-size:1.4vw;
+}
+.cosLletra>h5{
+	font-size:1.3vw;
+}
+.cosLletra>h6{
+	font-size:1.4vw;
+} 
+section{
+	width:90%;
+	margin:8vw 5% 0px;
+	height:79.4vh;
+}
+section>article{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:36%;
+	float:left;
+	margin:5%;
+	cursor:pointer;
+}
+section>article>div>img{
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:3;
+	width:100%;
+	background-size:cover;
+	opacity:0.9;
+	transition:all 0.7s;
+}
+section>article>div>img:hover{
+	opacity:1;
+	transform:scale(1.1,1.1);
+}
+section>article>div>a>img{
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:3;
+	width:100%;
+	opacity:0.9;
+	transition:all 0.7s;
+}
+section>article>div>a>img:hover{
+	opacity:1;
+	transform:scale(1.1,1.1);
+}
+.capa{
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:2;
+	width:100%;
+	height:17vw;
+	background:black;
+	overflow:hidden;
+}
+section>article>video{
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:1;
+}
+section>article>div{
+	position:absolute;
+	top:15.8vw;
+	left:0px;
+	width:100%;
+	height:2.8vw;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+}
+section>article>div>h2{
+	position:absolute;
+	top:0vw;
+	left:0px;
+	margin:0px;
+	padding:0.6vw 0px 0.8vw 0.8vw;
+	width:100%;
+	height:1.6vw;
+	z-index:3;
+	font-family:calibri;
+	font-size:1.4vw;
+	text-transform:uppercase;
+	text-align:left;
+	background:rgba(240,240,240,1);
+}
+section>article>a{
+	position:absolute;
+	top:0px;
+	left:0px;	
+	width:100%;
+	height:15.6vw;
+}
+form>label>h3{
+	padding:40px 20px 20px 50px;
+	font-size:24pt;
+	font-family:calibri;
+	background:rgba(240,240,240,1);
+	
+}
+form{
+	background:rgba(220,220,220,1);
+	margin-top:1vh;
+	width:100%;
+}
+form>input{
+	margin-left:50px;
+	margin-bottom:20px;
+	width:400px;
+	height:30px;
+	font-size:12pt;
+	border-radius:2px;
+	border:1px solid grey;
+	transition:all 0.6s;
+}
+form>textarea{
+	margin-left:50px;
+	min-width:500px;
+	min-height:150px;
+	max-width:500px;
+	max-height:150px;
+	font-size:12pt;
+	border-radius:2px;
+	border:1px solid grey;
+	transition:all 0.4s;
+}
+form>input:focus, form>textarea:focus{
+	border-color:rgba(255, 102, 0,1);
+	outline:none! important;
+} 
+#acceptar{
+	width:100px;
+	height:40px;
+	font-size:13pt;
+	font-family:arial;
+	color:white;
+	text-transform:uppercase;
+	background:rgba(255, 102, 0,1);
+	cursor:pointer;
+	box-shadow:0px -3px 40px rgba(0,0,0,0.2) inset;
+	border-radius:4px;
+	transition:all 0.2s;
+}
+#acceptar:hover{
+	box-shadow:0px 0px 0px rgba(0,0,0,0) inset;
+}
+footer{
+	width:100%;
+	height:5vw;
+	border-top:2px solid black;
+	background:rgba(255,240,219,1);
+}
+footer>a{
+	float:left;
+	padding-top:0.4vw;
+	margin: 1vw 25% 0px 5%;
+	font-size:1.8vw;
+	text-decoration:none;
+	color:rgba(77,79,79,1);
+}
+footer>a:nth-child(1){
+	font-size:2vw;
+}
+.gallery>footer{
+	float:left;
+	width:100%;
+	height:5vw;
+	border-top:2px solid black;
+	background:rgba(255,240,219,1);
+}
+.gallery>footer>a{
+	float:left;
+	padding-top:0.4vw;
+	margin: 1vw 25% 0px 5%;
+	font-size:1.8vw;
+	text-decoration:none;
+	color:rgba(77,79,79,1);
+}
+.gallery>footer>a:nth-child(1){
+	font-size:2vw;
+}
+
+@media(max-width:1000px){
+	nav{
+		height:12vw;
+		z-index:5;
+	}
+	nav>a>h2{
+		width:65%;
+		font-size:6.8vw;
+		margin:2vw 0% 0.8vw 6%;
+	}
+	nav>img{
+		position:absolute;
+		top:1vw;
+		left:86%;
+		width:10vw;
+		cursor:pointer;
+	}
+	#div2{
+		background:url(../img/NovesDecembre2019/subilogo.jpg);
+		width:5.4%;
+		height:7.6vw;
+		float:left;
+		margin:2vw 0px 0px 4.4%;
+		background-size:cover;
+	}
+	#div3{
+		position:absolute;
+		top:66vw;
+		left:25%;
+		width:75%;
+		margin:0vw;
+		z-index:1;
+	}
+	#div3>a{
+		float:left;
+		margin:0px 4% 0px 4%;
+		font-size:calibri;
+		text-decoration:none;
+		color:rgba(77,79,79,1);
+		list-style:none;
+		font-size:4.5vw;
+		font-family:calibri;
+		padding:1.8vw 1% 0px 1%;
+	}
+	#div3>a:hover{
+		text-decoration:none;
+	}
+	#div1{
+		position:absolute;
+		top:14vw;
+		left:0px;
+		width:100%;
+		margin:0px;
+	
+	}
+	#div1>a>div{
+		width:92%;
+		height:8.2vw;
+		font-size:5.5vw;
+		margin:0px 4% 0px 4%;
+		padding:1.8vw 1% 0px 1%;
+		text-align:left;
+		text-transform:capitalize;
+		font-family: calibri;
+		text-decoration:none;
+		font-weight:bold;
+		display:inline-block;
+		transition:all 0.1s;
+		cursor:pointer;
+		color:rgba(77,79,79,1);
+		background:rgba(248,245,232,1);
+	}
+	#div1>a>div:hover{
+		color:black;
+		background:rgba(235,230,220,1);
+		border-bottom:0.1vw solid grey;
+	}
+	#div1>a:nth-child(5)>div{
+		border-bottom:none;
+	}
+	#margeTop{
+		margin:12vw 0px 0px 0px;
+	}
+	.fonsClar{
+		font-size:6vw;
+	}
+	.fonsFosc{
+		font-size:6vw;
+	}
+	.lletraGran{
+		font-size:5vw;
+	}
+	.cosLletra{
+		padding:0vw 3vw;
+	}
+	.cosLletra>h2:nth-child(1){
+		font-size:4vw;
+	}
+	.cosLletra>h2{
+		font-size:4vw;
+	}
+	.cosLletra>p{
+		font-size:4vw;
+	}
+	.cosLletra>h5{
+		font-size:3.6vw;
+	}
+	.cosLletra>h6{
+		font-size:4vw;
+	} 
+	section{
+		margin-top:20vw;
+		height:100vw;
+	}
+	section>article{
+		position:relative;
+		top:0px;
+		left:0px;
+		width:70%;
+		margin:6vw 15% 40vw 15%;
+		cursor:pointer;
+	}
+	.capa{
+		position:absolute;
+		top:0px;
+		left:0px;
+		z-index:2;
+		width:100%;
+		height:32vw;
+		background:black;
+		overflow:hidden;
+	}
+	section>article>div{
+		position:absolute;
+		top:32vw;
+		left:0px;
+		height:3.6vw;
+	}
+	section>article>div>h2{
+		height:3.5vw;
+	}
+	footer{
+		float:left;
+		height:7vw;
+	}
+	footer>a{
+		float:left;
+		padding-top:0.4vw;
+		margin: 1vw 18% 0px 5%;
+		font-size:3vw;
+		text-decoration:none;
+		color:rgba(77,79,79,1);
+	}
+	footer>a:nth-child(1){
+		font-size:3.3vw;
+	}
+	.gallery>footer{
+		float:left;
+		height:7vw;
+	}
+	.gallery>footer>a{
+		float:left;
+		padding-top:0.4vw;
+		margin: 1vw 18% 0px 5%;
+		font-size:3vw;
+		text-decoration:none;
+		color:rgba(77,79,79,1);
+	}
+	.gallery>footer>a:nth-child(1){
+		font-size:3.3vw;
+	}
+	.foot{
+		position:absolute;
+		bottom:0px;
+	}
+	
+	form>label>h3{
+		padding:12vw 2vw 4vw 5vw;
+		margin:1vw 0vw;
+		font-size:7vw;
+		font-family:calibri;
+		background:rgba(240,240,240,1);
+		
+	}
+	form{
+		background:rgba(220,220,220,1);
+		margin-top:1vh;
+		width:100%;
+		height:140vw;
+	}
+	form>input{
+		margin-left:5vw;
+		margin-bottom:3.5vw;
+		width:60vw;
+		height:7vw;
+		font-size:5vw;
+		border-radius:2px;
+		border:1px solid grey;
+		transition:all 0.6s;
+	}
+	form>textarea{
+		margin-left:5%;
+		min-width:90%;
+		min-height:40vw;
+		max-width:90%;
+		max-height:40vw;
+		font-size:4.5vw;
+		border-radius:2px;
+		border:1px solid grey;
+		transition:all 0.4s;
+	}
+	form>input:focus, form>textarea:focus{
+		border-color:rgba(255, 102, 0,1);
+		outline:none! important;
+	} 
+	#acceptar{
+		width:24vw;
+		height:10vw;
+		font-size:4vw;
+		font-family:arial;
+		color:white;
+		text-transform:uppercase;
+		background:rgba(255, 102, 0,1);
+		cursor:pointer;
+		box-shadow:0px -3px 40px rgba(0,0,0,0.2) inset;
+		border-radius:4px;
+		transition:all 0.2s;
+	}
+	#acceptar:hover{
+		box-shadow:0px 0px 0px rgba(0,0,0,0) inset;
+	}
+}

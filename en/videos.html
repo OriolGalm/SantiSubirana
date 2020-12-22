@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Videos</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="../img/NovesDecembre2019/favicon.ico" type="image/x-icon">
+	<link href="../css/estils2.css" type="text/css" rel="stylesheet"></link> 
+</head>
+<body>
+
+	<nav id="nav1">
+		<div id="div2"></div>
+		<a href="index.html"><h2>Santi Subirana</h2></a>
+		<img src="../img/hambnegre.png" onclick="desplegarMenu();">
+		<div id="div1">
+			<a href="trajectory.html"><div>Trajectory</div></a>
+			<a href="work.html"><div>Work</div></a>
+			<a href="videos.html"><div style="color:black; background:silver; border-bottom:0.1vw solid brown">Videos</div></a>
+			<a href="biography.html"><div>Biography</div></a>
+		</div>	
+		<div id="div3">
+			<a href="http://www.santisubirana.cat/ca/videos.html">Català</a>
+			<a href="http://www.santisubirana.cat/es/videos.html">Castellano</a>
+		</div>
+	</nav>
+	
+	<section>
+		<article onclick="reprod('film1');">
+			<div class="capa">
+				<img src="../img/VTS_01_1_Momentabarca.jpg">
+			</div>
+			<video width="100%" controls id="film1">
+				<source src="../video/VTS_01_1.mp4" type="video/mp4">
+				Your browser does not support videos HTML5
+			</video>
+			<video width="100%" controls id="film1">
+				<source src="../video/VTS_01_2.mp4" type="video/mp4">
+				Your browser does not support videos HTML5
+			</video>
+			<div>
+				<h2>santi subirana</h2>
+			</div>
+		</article>
+	<!--	<article onclick="reprod('film2');">
+			<div class="capa">
+				<img src="img/VTS_01_1_Moment(8)rovira.jpg">
+			</div>
+			<video width="100%" controls id="film2">
+				<source src="video/VTS_01_1rovira.mp4" type="video/mp4">
+				El seu navegador no suporta videos HTML5
+			</video>
+			<div>
+				<h2>santi subirana: rovira gallemí</h2>
+			</div>
+		</article>-->
+		<article onclick="reprod('film3');">
+			<div class="capa">
+				<a href="https://votv.alacarta.cat/perfils/capitol/santi-subirana-ceramista" target="blank" id="film3">
+				<img src="../img/VTS_01_1_Moment(2)votv.jpg"></a>
+			</div>		
+			<div>
+				<h2>santi subirana: votv</h2>
+			</div>
+		</article>
+	</section>
+	
+	<footer class="foot">
+		<a href="index.html">At the start</a>
+		<p>santisubirana@hotmail.com</p>
+	</footer>
+	
+	<script src="../js/accions.js" type="text/javascript">
+	</script>
+</body>
+</html>
