@@ -125,7 +125,7 @@ h4{
 } 
 section{
 	width:90%;
-	margin:8vw 5% 0px;
+	margin:6vw 5% 2vw;
 	height:79.4vh;
 }
 section>article{
@@ -136,6 +136,9 @@ section>article{
 	float:left;
 	margin:5%;
 	cursor:pointer;
+}
+#torn{
+	margin-top:200px
 }
 section>article>div>img{
 	position:absolute;
