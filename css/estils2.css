@@ -426,6 +426,10 @@ footer>a:nth-child(1){
 		margin:6vw 15% 40vw 15%;
 		cursor:pointer;
 	}
+	#torn{
+		margin-top:50px;
+		margin-bottom:60%
+	}
 	.capa{
 		position:absolute;
 		top:0px;
