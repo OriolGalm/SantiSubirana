@@ -96,7 +96,6 @@ nav>img{
 	margin:1vw 0% 0px 4%;
 }
 #div1>a>div{
-	float:left;
 	width:20%;
 	font-size:1.8vw;
 	padding:0px 0px 2px 0px;
@@ -183,13 +182,18 @@ h1{
 	background:rgba(240,240,240,1);
 }
 #div4>div{
-	width:80%;
-	margin:0px 10%;
-	height:47vw;
+	width:90%;
+	margin:0px 5%;
+	height:38vw;
 	overflow:hidden;
 }
+#div4>div>a{
+	display:flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
 #div4>div>a>img{
-	width:100%;
+	width:49%;
 	background-size:100% 100%;
 	opacity:1;
 	transition:0.4s;
@@ -221,7 +225,8 @@ h1{
 	margin-right:0%;
 	margin-bottom: 5%;
 	margin-left: 30%;
-	font-size: 1.5rem
+	font-size: 1.5rem;
+	color:black;
 }
 #div5>div>a{
 	text-decoration:none
@@ -363,6 +368,12 @@ footer>p:nth-child(1){
 	#div3>a:hover{
 		text-decoration:none;
 	}
+	#div4>div{
+		width:94%;
+		margin:0px 3%;
+		height:38vw;
+		overflow:hidden;
+	}
 	#div1{
 		position:absolute;
 		top:14vw;
@@ -404,9 +415,9 @@ footer>p:nth-child(1){
 		background:rgba(240,240,240,1);
 	}
 	#div4>div{
-		width:86%;
-		margin:0px 7%;
-		height:62vw;
+		width:96%;
+		margin:0px 2%;
+		height:42vw;
 		overflow:hidden;
 	}
 	#div5>div>a>p{
@@ -468,5 +479,22 @@ footer>p:nth-child(1){
 	}
 	footer>p:nth-child(1){
 		font-size:3.3vw;
+	}
+}
+@media(max-width: 500px){
+	#div4>div{
+		width:90%;
+		margin:0px 5%;
+		height:145vw;
+	}
+	#div4>div>a{
+		display:flex;
+		flex-direction: column;
+		align-items:center;
+		justify-content: space-around;
+		row-gap: 2vw;
+	}
+	#div4>div>a>img{
+		width:100%;
 	}
 }
