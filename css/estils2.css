@@ -107,6 +107,7 @@ h4{
 }
 .cosLletra{
 	padding:0vw 5vw;
+	margin: 2vw 0vw;
 }
 .cosLletra>h2:nth-child(1){
 	font-size:1.4vw;
@@ -117,8 +118,13 @@ h4{
 .cosLletra>p{
 	font-size:1.4vw;
 }
+.cosLletra>h4{
+	margin: 20px 0px 30px 0px;
+	border-top: 20px solid rgba(240,240,240,1);
+}
 .cosLletra>h5{
 	font-size:1.3vw;
+	margin: 25px 0px 4px 0px;
 }
 .cosLletra>h6{
 	font-size:1.4vw;
