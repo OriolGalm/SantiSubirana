@@ -190,13 +190,28 @@ h1{
 #div4>div>a{
 	display:flex;
 	flex-wrap: nowrap;
-	justify-content: space-between;
+	justify-content: flex-start;
+	text-decoration: none;
 }
 #div4>div>a>img{
 	width:49%;
 	background-size:100% 100%;
 	opacity:1;
 	transition:0.4s;
+}
+#div4>div>a>img:nth-child(2){
+	width:31%;
+	background-size:100% 100%;
+	opacity:1;
+	transition:0.4s;
+	margin-left: 2%;
+}
+#div4>div>a>p{
+	color: black;
+	white-space: pre-line;
+	padding-left: 0.5rem;
+	padding-top: 2.6rem;
+	line-height: 2.2;
 }
 #div4>div>a>img:hover{
 	opacity:0.9;
