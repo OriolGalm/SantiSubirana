@@ -4,7 +4,13 @@ div#frame {width:100%; min-width:320px; margin:4vw auto 0px;}
 div#frame {width:1200px;}
 }
 @media only screen and (max-width:1000px){
-    div#frame{margin-top:80px}
+    div#frame{margin-top:90px}
+}
+@media only screen and (max-width:768px){
+    div#frame{margin-top:-220px}
+}
+@media only screen and (max-width:500px){
+    div#frame{margin-top:-250px}
 }
 /* GALLERY */
 div.gallery {width:100%; min-width:320px; float:left; background:#708090; margin-bottom:0vw; margin-top:1vw;}
