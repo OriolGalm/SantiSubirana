@@ -554,6 +554,9 @@ footer>p:nth-child(1){
 		column-count: 2;
 		column-gap: 1rem;
 		font-size: 3.2vw;
+		background: rgba(245,245,245);
+		border-radius: 4px;
+		box-shadow: 1px 1px grey;
 	}
 	#div5 h3{
 		font-size: 1.4rem;

@@ -436,6 +436,10 @@ footer>a:nth-child(1){
 		margin-top:50px;
 		margin-bottom:60%
 	}
+	#torn2{
+		margin-top:-20px;
+		margin-bottom:60%
+	}
 	.capa{
 		position:absolute;
 		top:0px;

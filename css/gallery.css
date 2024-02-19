@@ -3,6 +3,9 @@ div#frame {width:100%; min-width:320px; margin:4vw auto 0px;}
 {
 div#frame {width:1200px;}
 }
+@media only screen and (max-width:1000px){
+    div#frame{margin-top:80px}
+}
 /* GALLERY */
 div.gallery {width:100%; min-width:320px; float:left; background:#708090; margin-bottom:0vw; margin-top:1vw;}
 div.gallery > div {width:50%; margin:0 0 1px; float:left; background:#363636; border-right:1px solid #708090; box-sizing:border-box;}
