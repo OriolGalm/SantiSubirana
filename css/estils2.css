@@ -327,6 +327,10 @@ footer>a:nth-child(1){
 		width:10vw;
 		cursor:pointer;
 	}
+	.espai{
+		width: 100%;
+		height: 8vw;
+	}
 	#div2{
 		background:url(../img/NovesDecembre2019/subilogo.jpg);
 		width:5.4%;
