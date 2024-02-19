@@ -458,10 +458,11 @@ footer>a:nth-child(1){
 		position:absolute;
 		top:32vw;
 		left:0px;
-		height:3.6vw;
+		height:6vw;
 	}
 	section>article>div>h2{
-		height:3.5vw;
+		height:4vw;
+		font-size: 3vw;
 	}
 	footer{
 		float:left;
