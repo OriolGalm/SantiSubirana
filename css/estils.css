@@ -131,7 +131,7 @@ nav>img{
 	background-size:cover;
 }
 #slid2{
-	background:url(../img/DSC00262dos.JPG);
+	background:url(../img/Maig2024/IMG20240531125746petit.JPG);
 	background-size:100% 100%;
 }
 #slid3{
@@ -148,7 +148,7 @@ nav>img{
 		background-size:cover;
 	}
 	#slid2{
-		background:url(../img/DSC00262tres.jpg);
+		background:url(../img/Maig2024/IMG20240531125746petit.jpg);
 		background-size: 100% 100%;
 	}
 	#slid3{
@@ -194,25 +194,27 @@ h1{
 	text-decoration: none;
 }
 #div4>div>a>img{
-	width:49%;
-	background-size:100% 100%;
+	width:36%;
+	/* height: 60vh; */
 	opacity:1;
 	transition:0.4s;
 }
-#div4>div>a>img:nth-child(2){
-	width:31%;
+/* #div4>div>a>img:nth-child(2){
+	width:51%;
 	background-size:100% 100%;
 	opacity:1;
 	transition:0.4s;
 	margin-left: 2%;
-}
+} */
 #div4>div>a>p{
+	width:12%;
 	color: black;
 	white-space: pre-line;
 	padding-left: 0.5rem;
-	padding-top: 2rem;
+	padding-right: 0.5rem;
+	padding-top: 1.2rem;
 	line-height: 2.6;
-	font-size: 1.6vw;
+	font-size: 1.4vw;
 }
 /* @media(max-width: 800px){
 	#div4>div>a>p{
@@ -462,12 +464,15 @@ footer>p:nth-child(1){
 		padding:1vw 7%;
 		background:rgba(240,240,240,1);
 	}
-	#div4>div{
+	/* #div4>div{
 		width:96%;
 		margin:0px 2%;
 		height:42vw;
 		overflow:hidden;
-	}
+	} */
+	/* #div4>div>a>img{
+		width:64vh
+	} */
 	#div5>div>a>p{
 	height: 80%;
 	margin-top: 5%;
@@ -529,11 +534,15 @@ footer>p:nth-child(1){
 		font-size:3.3vw;
 	}
 }
+
 @media(max-width: 600px){
+	/* #div4{
+		height:800px
+	} */
 	#div4>div{
 		width:90%;
 		margin:0px 5%;
-		height:175vw;
+		height:100%;
 	}
 	#div4>div>a{
 		display:flex;
@@ -549,6 +558,7 @@ footer>p:nth-child(1){
 		width:85%
 	}
 	#div4>div>a>p{
+		width:80%;
 		padding-top: 0.2rem;
 		margin-top: 0px;
 		column-count: 2;
