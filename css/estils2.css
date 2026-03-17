@@ -126,6 +126,17 @@ h4{
 	font-size:1.3vw;
 	margin: 25px 0px 4px 0px;
 }
+.cosLletra>a>h5{
+	font-size:1.3vw;
+	color: black;
+	margin: 25px 0px 4px 0px;
+}
+.cosLletra>a{
+	text-decoration: none;
+	:hover{
+		color:maroon
+	}
+}
 .cosLletra>h6{
 	font-size:1.4vw;
 } 
