@@ -291,6 +291,14 @@ footer{
 	border-top:2px solid black;
 	background:rgba(255,240,219,1);
 }
+footer>p{
+	float:left;
+	padding-top:0.4vw;
+	margin: 1vw 25% 0px 5%;
+	font-size:1.8vw;
+	text-decoration:none;
+	color:rgba(77,79,79,1);
+}
 footer>a{
 	float:left;
 	padding-top:0.4vw;
@@ -301,6 +309,17 @@ footer>a{
 }
 footer>a:nth-child(1){
 	font-size:2vw;
+}
+.inst{
+	font-size:2.0vw;
+	margin-left: 85%;
+	margin-top: 0px;
+}
+.inst>a{
+	display: block;
+	margin-left: 10px;
+	margin-top: 20px;
+	float:left
 }
 .gallery>footer{
 	float:left;
@@ -431,6 +450,17 @@ footer>a:nth-child(1){
 	}
 	.cosLletra>h5{
 		font-size:3.6vw;
+	}
+	.cosLletra>a>h5{
+		font-size:1.3vw;
+		color: black;
+		margin: 25px 0px 4px 0px;
+	}
+	.cosLletra>a{
+		text-decoration: none;
+		:hover{
+			color:maroon
+		}
 	}
 	.cosLletra>h6{
 		font-size:4vw;
